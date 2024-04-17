@@ -23,7 +23,7 @@ parser.add_argument('--data_name',
                     type=str,
                     default='NYU',
                     # default='KITTIDC',
-                    choices=('NYU', 'KITTIDC'),
+                    choices=('NYU', 'KITTIDC', 'clearpose'),
                     help='dataset name')
 parser.add_argument('--split_json',
                     type=str,

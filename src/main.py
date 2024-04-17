@@ -35,6 +35,7 @@ from loss.l1l2loss import L1L2Loss
 # NOTE : Only 1 process per GPU is supported now
 import torch.multiprocessing as mp
 import torch.distributed as dist
+from torch import inf
 import apex
 from apex.parallel import DistributedDataParallel as DDP
 from apex import amp
