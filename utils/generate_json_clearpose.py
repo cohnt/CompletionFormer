@@ -121,7 +121,7 @@ def generate_json():
     val_start = test_stop
     val_stop = val_start + int(args.val_ratio * len(list_data))
     train_start = val_stop
-    train_stop = -1
+    train_stop = len(list_data)
 
     if test_stop - test_start > args.num_test:
         test_stop = test_start + args.num_test

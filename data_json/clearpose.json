@@ -15935,6 +15935,12 @@
             "depth": "/home/tommy/Documents/homework/6.8300/project/clearpose_downsample_100/set2/scene6/006000-depth.png",
             "gt": "/home/tommy/Documents/homework/6.8300/project/clearpose_downsample_100/set2/scene6/006000-depth_true.png",
             "K": "/home/tommy/Documents/homework/6.8300/project/clearpose_downsample_100/set2/scene6/006000-calib.txt"
+        },
+        {
+            "rgb": "/home/tommy/Documents/homework/6.8300/project/clearpose_downsample_100/set9/scene11/000600-color.png",
+            "depth": "/home/tommy/Documents/homework/6.8300/project/clearpose_downsample_100/set9/scene11/000600-depth.png",
+            "gt": "/home/tommy/Documents/homework/6.8300/project/clearpose_downsample_100/set9/scene11/000600-depth_true.png",
+            "K": "/home/tommy/Documents/homework/6.8300/project/clearpose_downsample_100/set9/scene11/000600-calib.txt"
         }
     ],
     "val": [
